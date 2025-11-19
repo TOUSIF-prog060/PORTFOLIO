@@ -51,7 +51,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       <div className="absolute inset-0 bg-cover bg-center opacity-10 blur-sm" style={{ backgroundImage: `url(${project.image})` }}></div>
       <div className="relative z-10 flex flex-col h-full">
         <img src={project.image} alt={project.title} className="w-full h-40 object-cover rounded-lg mb-4 shadow-lg" />
-        <h3 className="text-xl font-bold text-white mb-2 gradient-text-blue-violet glowing-text-sm">{project.title}</h3>
+        <h3 className="text-xl font-bold text-gray-800 mb-2 gradient-text-blue-violet glowing-text-sm">{project.title}</h3>
         <p className="text-gray-700 text-sm flex-grow mb-4">{project.description}</p>
         <div className="flex flex-wrap gap-2 mb-4">
           {project.techStack.map((tech) => (

@@ -103,7 +103,7 @@ const Projects: React.FC = () => {
 
       <div className="container mx-auto relative z-10 text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-bold gradient-text-blue-violet mb-4">My Projects</h2>
-        <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+        <p className="text-gray-700 text-lg max-w-2xl mx-auto">
           A collection of my recent works, showcasing my skills in modern web development and design.
         </p>
       </div>
